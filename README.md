@@ -81,7 +81,6 @@ The display program shows:
 - Memory usage and available memory
 - Process count and top processes
 - Network I/O rates
-- Disk I/O statistics
 
 Controls:
 - `Ctrl+C`: Exit
