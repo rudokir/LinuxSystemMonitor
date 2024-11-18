@@ -16,7 +16,6 @@ This project is a small project, that may improve in the future to learn the fun
 - Memory usage statistics
 - Process tracking
 - Network I/O monitoring
-- Disk I/O statistics
 - Historical data tracking
 - Real-time updates
 
