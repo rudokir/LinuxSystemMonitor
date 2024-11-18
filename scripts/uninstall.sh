@@ -24,9 +24,13 @@ systemctl daemon-reload
 # Remove kernel module
 echo -e "\n${GREEN}Removing kernel module...${NC}"
 rmmod system_monitor
+cd ../kernel
+make clean
 
 # Remove userspace program
 echo -e "\n${GREEN}Removing userspace program...${NC}"
 rm /usr/local/bin/system_monitor_display
+cd ../userspace
+make clean
 
 echo -e "\n${GREEN}Uninstallation complete!${NC}"
